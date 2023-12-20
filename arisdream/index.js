@@ -1,14 +1,15 @@
-const express = require("express");
-const path = require("path");
-const cors = require("cors");
-const cookieParser = require("cookie-parser");
+const express = require('express');
+const path = require('path');
+const cors = require('cors');
+const cookieParser = require('cookie-parser');
+require('express-async-errors');
 
 const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
-    methods: ["GET", "POST"],
+    origin: ['http://localhost:3000'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
 );
@@ -20,17 +21,34 @@ app.use(
   })
 );
 
-//auth urls
+// auth urls
+const authRoutes = require('./controllers/auth.controller');
+app.use('/api/auth', authRoutes);
 
-const authRoutes = require("./controllers/auth.controller");
-app.use("/api/auth", authRoutes);
+// upload urls
+const uploadRoutes = require('./controllers/upload.controller');
+app.use('/api/upload', uploadRoutes);
 
-app.use("/", express.static(path.join(__dirname, "/public")));
+app.use('/public', express.static(path.join(__dirname, '/public')));
 
-app.get("/xyz", (req, res) => {
-  res.sendFile(path.join(__dirname, "/public/test.html"));
+app.get('/test', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/test.html'));
 });
-const httpServer = require("http").createServer(app);
+
+app.use((err, _req, res, next) => {
+  res.status(err.status || 500).send({
+    status: false,
+    error: err.message,
+    message: 'Something went wrong!',
+  });
+});
+
+app.use(express.static('client/build'));
+app.get('*', (_req, res) => {
+  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+});
+
+const httpServer = require('http').createServer(app);
 httpServer.listen(4000, () => {
-  console.log("Server running");
+  console.log('server running');
 });
