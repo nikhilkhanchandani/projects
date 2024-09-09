@@ -1,0 +1,48 @@
+---
+- hosts: webservers
+  become: true  # Enable elevated privileges
+
+  tasks:
+    - name: Install Apache2 webserver
+      apt:
+        name: apache2
+        state: present
+        update_cache: true
+
+    - name: Configure Apache to listen on port 8080
+      lineinfile:
+        path: /etc/apache2/ports.conf
+        regexp: '^Listen'
+        line: 'Listen 8080'
+        state: present
+
+    - name: Configure the default virtual host to use port 8080
+      lineinfile:
+        path: /etc/apache2/sites-available/000-default.conf
+        regexp: 'VirtualHost \*:'
+        line: '<VirtualHost *:8080>'
+        state: present
+
+    - name: Restart Apache to apply port changes
+      service:
+        name: apache2
+        state: restarted
+
+    - name: Configure Apache2 for Hello World
+      lineinfile:
+        path: /var/www/html/index.html
+        line: 'Hello World from SJSU-{{ inventory_hostname }}'
+        create: true
+        state: present
+
+    - name: Ensure port 8080 is open in UFW
+      ufw:
+        port: 8080
+        protocol: tcp
+        state: enabled
+
+    - name: Start Apache2 service
+      service:
+        name: apache2
+        state: started
+        enabled: true

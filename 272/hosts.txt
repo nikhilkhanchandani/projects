@@ -1,0 +1,3 @@
+[webservers]
+VM4 ansible_host=10.0.0.103
+VM5 ansible_host=10.0.0.109
