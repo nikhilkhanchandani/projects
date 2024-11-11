@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Contact Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>My Website</h1>
+      <button id="contactButton">Contact Us</button>
+    </nav>
+    <div id="contactForm" style="display: none">
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
