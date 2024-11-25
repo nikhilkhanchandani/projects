@@ -8,3 +8,5 @@ Clustering F: https://colab.research.google.com/drive/1vMFZItvsxlfM4IvJ2craCvNvi
 Clustering G: https://colab.research.google.com/drive/1zAPcMakhJincI9fc3hxlwL2nGkCmTyxY?usp=sharing
 Clustering H: https://colab.research.google.com/drive/1o1BYlp8hCpbdjM1IYDdU-hiD_q73fFk-?usp=sharing 
 Clustering I: https://colab.research.google.com/drive/1PbD_S4CpI_qluQv2Dt3dpHhxQJXYiksE?usp=sharing
+
+Video link: https://www.youtube.com/watch?v=VAmK3OFXhn8 
