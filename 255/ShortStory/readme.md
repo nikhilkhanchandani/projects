@@ -9,4 +9,4 @@ Youtube Video: https://www.youtube.com/watch?v=XD1c4oQ2atY
 
 ## Overview
 
-Text
+This project looks at a research paper which discusses how Large Language Models (LLMs) are revolutionizing data-centric tasks. The work focuses on how LLMs make things like data cleaning, summarization, and query generation simplified without needing any technical background.
