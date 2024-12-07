@@ -1,5 +1,5 @@
-You can test and run the python code on collab and test things easily by just running it.
-Collab Link:
+You can test and run the python code on collab and test things easily by just running it. The .ipynb file is in the braintumor folder.
+Collab Link: https://colab.research.google.com/drive/1abOb7aTqQQCWcrSPv3MPyFBzSV4pCGhc?usp=sharing
 
 However if you want to run the Website which is implemented you need to the following commands: (Make sure you have Python, pip, Node installed)
 
