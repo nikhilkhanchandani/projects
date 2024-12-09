@@ -7,7 +7,7 @@ You can test and run the python code on collab and test things easily by just ru
 ## Report Link: https://docs.google.com/document/d/1SY0MA-L_Ed2CkkU5IyM6ksiupZL1_yJyx39A79fEb8E/edit?usp=sharing
 
 However if you want to run the Website which is implemented you need to the following commands: (Make sure you have Python, npm, Node, git installed)
-git clone https://github.com/yourusername/BrainTumor.git
+git clone https://github.com/nikhilkhanchandani/projects/tree/main/braintumor
 
 1. In console, navigate to the backend folder
 2. Type .\venv\Scripts\activate for Windows, and source venv/bin/activate for Mac
