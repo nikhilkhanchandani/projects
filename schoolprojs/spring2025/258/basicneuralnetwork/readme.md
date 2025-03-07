@@ -8,3 +8,4 @@ part d: https://colab.research.google.com/drive/1GQfLaZI7G75b8E7d3ragWlwHmpYosC5
 part e: https://colab.research.google.com/drive/1_kRjYVncdm7w73KNshb0HQAf9HIBHZ9J?usp=sharing
 
 Youtube Link:
+https://www.youtube.com/watch?v=cgwQAA24gcI
