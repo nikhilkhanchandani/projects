@@ -9,3 +9,4 @@ https://colab.research.google.com/drive/1fGaN_NAcLolmXudc_IA7rFGxH201Ivrb?usp=sh
 https://colab.research.google.com/drive/1XRa4Vp09p8gWlhkN-xsfR02mhvC_Ex_I?usp=sharing
 
 Video:
+https://www.youtube.com/watch?v=fa3lDgPBZrQ
