@@ -3,13 +3,13 @@
 ## Large Language Models: A Survey
 
 Research Paper: https://arxiv.org/pdf/2402.06196
-Medium Article: https://medium.com/@nikhilkhanchandani_43742/llms-solve-data-centric-tasks-e4fd0b750c7e  
-Slideshare Presentation: https://www.slideshare.net/slideshow/data-centric-tasks-using-large-language-models/273823487  
-Youtube Video: https://www.youtube.com/watch?v=XD1c4oQ2atY
+Medium Article: https://medium.com/@nikhilkhanchandani_43742/large-language-models-diving-into-gpt-llama-and-more-39bf171326db
+Slideshare Presentation: https://www.slideshare.net/slideshow/large-language-models-diving-into-gpt-llama-and-more/278984613
+Youtube Video:
 
 ## Overview
 
-This project looks at a research paper which discusses how Large Language Models (LLMs) are revolutionizing data-centric tasks. The work focuses on how LLMs make things like data cleaning, summarization, and query generation simplified without needing any technical background.
+This project looks at a research paper that breaks down how Large Language Models like GPT and LLaMA are trained, what makes them powerful, and how they're being used in real-world AI tools from chatbots to reasoning agents.
 
 This repository contains:
 
