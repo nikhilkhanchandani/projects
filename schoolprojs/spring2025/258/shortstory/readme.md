@@ -5,7 +5,7 @@
 Research Paper: https://arxiv.org/pdf/2402.06196  
 Medium Article: https://medium.com/@nikhilkhanchandani_43742/large-language-models-diving-into-gpt-llama-and-more-39bf171326db  
 Slideshare Presentation: https://www.slideshare.net/slideshow/large-language-models-diving-into-gpt-llama-and-more/278984613  
-Youtube Video: https://www.youtube.com/watch?v=EXPFpK0FqEw
+Youtube Video: https://www.youtube.com/watch?v=EXPFpK0FqEw 
 
 ## Overview
 
