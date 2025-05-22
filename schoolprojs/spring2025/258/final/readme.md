@@ -1,3 +1,5 @@
+Team Members: Dustin Nguyen, Chint Patel, Nikhil Khanchandani, Vikranth Jakamukala
+
 You can test and run the python code on collab and test things easily by just running it. The .ipynb file is in the braintumor folder.
 
 Collab Link: https://colab.research.google.com/drive/1abOb7aTqQQCWcrSPv3MPyFBzSV4pCGhc?usp=sharing
