@@ -2,7 +2,7 @@ You can test and run the python code on collab and test things easily by just ru
 
 Collab Link: https://colab.research.google.com/drive/1abOb7aTqQQCWcrSPv3MPyFBzSV4pCGhc?usp=sharing
 
-Slides Link:
+Youtube Link: https://youtu.be/hjdyk0TyhC4
 
 Report Link:
 
