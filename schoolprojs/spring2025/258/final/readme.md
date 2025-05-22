@@ -2,9 +2,13 @@ You can test and run the python code on collab and test things easily by just ru
 
 Collab Link: https://colab.research.google.com/drive/1abOb7aTqQQCWcrSPv3MPyFBzSV4pCGhc?usp=sharing
 
+Dataset: https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
+
 Youtube Link: https://youtu.be/hjdyk0TyhC4
 
-Report Link:
+Report Link: PDF in github repo
+
+Slides: PPT in github repo
 
 However if you want to run the Website which is implemented you need to the following commands: (Make sure you have Python, npm, Node, git installed)
 git clone https://github.com/nikhilkhanchandani/projects/tree/main/schoolprojs/spring2025/258/final
