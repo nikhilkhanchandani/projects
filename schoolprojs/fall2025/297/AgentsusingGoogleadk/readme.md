@@ -20,9 +20,9 @@ This codelab demonstrates how to build and run an AI agent using the Google Agen
 - Follows strict user instructions to produce clean, practical text output.
 - Demonstrates single-turn conversation handling with fallback safety.
 
-Collab 2: https://colab.research.google.com/drive/11Ajpy_GVUyJWofH4LGzExBULDATX6bRo?usp=sharing
-
 # Building AI Agents with ADK: Empowering with Tools
+
+## Collab 2: https://colab.research.google.com/drive/11Ajpy_GVUyJWofH4LGzExBULDATX6bRo?usp=sharing
 
 ## Overview
 
@@ -41,9 +41,9 @@ It demonstrates how agents can call external logic safely and integrate results 
 - Incorporates real data (area, finish level) into a renovation proposal.
 - Produces a polished Markdown document combining LLM reasoning and tool data.
 
-Collab 3: https://colab.research.google.com/drive/1OZsBf8nr8oIVCR6kOCDvfXGyg3hKYMyP?usp=sharing
-
 # Building a Travel Agent using MCP Toolbox and ADK
+
+## Collab 3: https://colab.research.google.com/drive/1OZsBf8nr8oIVCR6kOCDvfXGyg3hKYMyP?usp=sharing
 
 ## Overview
 
@@ -62,4 +62,4 @@ The agent queries mock flight and hotel data, plans an itinerary, and generates 
 - Chooses the best combination based on user constraints (price, rating).
 - Generates a complete Markdown itinerary
 
-Part B)
+## Part B)
