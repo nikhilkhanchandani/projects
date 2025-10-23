@@ -63,3 +63,23 @@ The agent queries mock flight and hotel data, plans an itinerary, and generates 
 - Generates a complete Markdown itinerary
 
 ## Part B)
+
+# Project Manager Agent (ADK)
+
+## Collab 4: https://colab.research.google.com/drive/1wG2tvejBGhFBFiQJbgsJTefAwnp5qAaM?usp=sharing
+
+## Overview
+
+An ADK-based agent that generates a project status report from a simple local task store.
+It summarizes KPIs, owners, blockers, upcoming deadlines, and saves a burndown chart.
+
+## Tools
+
+- list/create/update tasks (JSON store)
+- compute_summary() → counts, remaining hours, ETA, burndown points
+- plot_burndown() → PNG chart
+
+## Flow
+
+Agent (DeepSeek via local llama.cpp) reads tool outputs and writes a Markdown report.
+If the LLM is unavailable or refuses, a deterministic fallback renderer produces the same report.
