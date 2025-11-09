@@ -1,0 +1,5 @@
+GCLOUD_LOCATION: "us-central1"
+GCLOUD_PROJECT_ID: "nikhil-ai-agents-19137"
+BACKEND_URL: "http://localhost:8081/chat"
+STORAGE_BUCKET_NAME: "personal-expense-assistant-receipts-nikhil-ai-agents-19137"
+DB_COLLECTION_NAME: "personal-expense-assistant-receipts"
