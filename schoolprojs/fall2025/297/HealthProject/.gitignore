@@ -1,0 +1,21 @@
+# Python venv
+backend/venv/
+venv/
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# macOS / Windows junk files
+.DS_Store
+Thumbs.db

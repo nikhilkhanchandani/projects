@@ -1,0 +1,7 @@
+google-adk
+fastapi
+uvicorn[standard]
+google-generativeai
+python-dotenv
+vertexai>=1.48.0
+google-cloud-aiplatform>=1.48.0
