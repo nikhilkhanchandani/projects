@@ -2,7 +2,7 @@ import vertexai
 from vertexai.generative_models import GenerativeModel
 
 def create_symptom_agent():
-    # TODO: replace with your actual project ID
+    # IMPORTANT: replace with your real project ID
     vertexai.init(
         project="YOUR_PROJECT_ID",
         location="us-central1"
@@ -12,7 +12,7 @@ def create_symptom_agent():
 
     instruction = """
 You are a safe symptom & wellness coach.
-Provide general wellness tips only. Never diagnose.
+Provide general wellness suggestions only. Never diagnose.
 """
 
     return {
